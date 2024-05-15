@@ -1,7 +1,7 @@
 lmg:
   card:
     payment:
-      payment-provider: CKO
+      payment-provider: APS
 merchant:
    blc: 
     country: 
