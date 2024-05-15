@@ -1,0 +1,6 @@
+lmg:
+ card:
+   payment:
+     provider: APS
+     
+  
