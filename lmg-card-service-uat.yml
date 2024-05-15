@@ -1,0 +1,9 @@
+lmg:
+  card:
+    payment:
+      payment-provider: CKO
+merchant:
+   blc: 
+    country: 
+     site: 
+      payment-provider: APS
