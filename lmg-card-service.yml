@@ -3,5 +3,10 @@ lmg-card-service:
   card:
     payment:
       provider: APS
+  merchant:
+   blc: 
+    country: 
+     site: 
+      payment-provider: CKO
      
   
