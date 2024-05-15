@@ -1,6 +1,7 @@
-lmg:
- card:
-   payment:
-     provider: APS
+lmg-card-service:
+ lmg:
+  card:
+    payment:
+      provider: APS
      
   
