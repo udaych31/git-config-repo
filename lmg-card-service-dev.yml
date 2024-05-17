@@ -1,15 +1,15 @@
 lmg:
   card:
     payment:
-      default-payment-provider: APS ## default payment provider
-      country-payment-provider: ##territory/country wise payment provider 
+      default-psp: APS ## default payment provider
+      country-psp: ##territory/country wise payment provider 
         UAE: CKO
         KWT: CKO
         OMN: CKO
         QAT: APS
         KSA: APS
         EGY: APS
-      concept-payment-provider: ## Concept wise payment provider, it will override contry specific/default payment provider
+      concept-wise-psp: ## Concept wise payment provider, it will override contry specific/default payment provider
         UAE:
           CENTREPOINT: CKO
           HOMECENTRE: APS
