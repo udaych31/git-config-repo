@@ -1,0 +1,75 @@
+lmg:
+  card:
+    payment:
+      default-payment-provider: APS ## default payment provider
+      country-payment-provider: ##territory/country wise payment provider 
+        UAE: CKO
+        KWT: CKO
+        OMN: CKO
+        QAT: APS
+        KSA: APS
+        EGY: APS
+      concept-payment-provider: ## Concept wise payment provider, it will override contry specific/default payment provider
+        UAE:
+          CENTREPOINT: CKO
+          HOMECENTRE: APS
+          HOMEBOX: CKO
+          MAX: APS
+          LIFESTYLE: CKO
+          SHOEMART: APS
+          BABYSHOP: APS
+          SPLASH: APS
+          
+        KWT:
+          CENTREPOINT: CKO
+          HOMECENTRE: APS
+          HOMEBOX: CKO
+          MAX: APS
+          LIFESTYLE: CKO
+          SHOEMART: APS
+          BABYSHOP: APS
+          SPLASH: APS
+          
+        OMN:
+          CENTREPOINT: CKO
+          HOMECENTRE: APS
+          HOMEBOX: CKO
+          MAX: APS
+          LIFESTYLE: CKO
+          SHOEMART: APS
+          BABYSHOP: APS
+          SPLASH: APS
+
+        QAT:
+          CENTREPOINT: CKO
+          HOMECENTRE: APS
+          HOMEBOX: CKO
+          MAX: APS
+          LIFESTYLE: CKO
+          SHOEMART: APS
+          BABYSHOP: APS
+          SPLASH: APS
+
+        KSA:
+          CENTREPOINT: CKO
+          HOMECENTRE: APS
+          HOMEBOX: CKO
+          MAX: APS
+          LIFESTYLE: CKO
+          SHOEMART: APS
+          BABYSHOP: APS
+          SPLASH: APS
+
+        EGY:
+          CENTREPOINT: CKO
+          HOMECENTRE: APS
+          HOMEBOX: CKO
+          MAX: APS
+          LIFESTYLE: CKO
+          SHOEMART: APS
+          BABYSHOP: APS
+          SPLASH: APS
+        
+        
+          
+        
