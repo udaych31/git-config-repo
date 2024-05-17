@@ -2,8 +2,8 @@ lmg:
   card:
     payment:
       payment-provider: APS
-    provider:
-      UAE:
-        centrepoint: CKO
-        homecentre: APS
+      provider:
+        UAE:
+          centrepoint: CKO
+          homecentre: APS
         
