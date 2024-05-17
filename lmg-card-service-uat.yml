@@ -1,9 +1,23 @@
 lmg:
   card:
     payment:
-      payment-provider: APS
-      provider:
+      default-payment-provider: ##territory/country wise default payment provider 
+        UAE: CKO
+        KWT: CKO
+        OMN: CKO
+        QAT: APS
+        KSA: APS
+        EGY: APS
+      payment-provider: ## Concept wise payment provider, it will override contry specific provider
         UAE:
-          centrepoint: CKO
-          homecentre: APS
+          CENTREPOINT: CKO
+          HOMECENTRE: APS
+          HOMEBOX: CKO
+          MAX: APS
+          LIFESTYLE: CKO
+          SHOEMART: APS
+          BABYSHOP: APS
+          SPLASH: APS
+        
+          
         
