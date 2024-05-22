@@ -2,10 +2,10 @@ lmg:
   card:
     payment:
       configs:
-        uae:
-          provider: CKO
+        UAE:
+          payment-provider: CKO
           client-secret: aaabbbcccddd
           conceptConfig:
-            max:
-              provider: APS
+            MAX:
+              payment-provider: APS
               client-secret: dddddeeeeeffff
