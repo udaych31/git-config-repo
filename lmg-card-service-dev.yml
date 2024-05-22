@@ -1,7 +1,7 @@
 lmg:
   card:
     payment:
-        uae:
+      uae:
           payment-provider: APS
           client-secret: kkkllllmmmnnn
           centrepoint:
@@ -10,7 +10,7 @@ lmg:
           homecentre:
             payment-provider: CKO
 
-        ksa:
+      ksa:
           payment-provider: CKO
           client-secret: aaabbbcccddd
           centrepoint:
