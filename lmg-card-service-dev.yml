@@ -2,8 +2,8 @@ lmg:
   card:
     payment:
       uae:
-        paymentProvider: CKO
-        clientSecret: aaabbbcccddd
+        payment-provider: CKO
+        client-secret: aaabbbcccddd
         max:
-          paymentProvider: APS
-          clientSecret: dddddeeeeeffff
+          payment-provider: APS
+          client-secret: dddddeeeeeffff
