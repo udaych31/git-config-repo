@@ -1,11 +1,18 @@
 lmg:
   card:
     payment:
-      configs:
+      country-configs:
         UAE:
           payment-provider: CKO
           client-secret: aaabbbcccddd
-          conceptConfig:
+          
+          concept-configs:
             MAX:
               payment-provider: APS
-              client-secret: dddddeeeeeffff
+              client-secret: maxsecretkey
+            CENTREPOINT:
+              payment-provider: 
+              client-secret: centrepointsecrekey
+            HOMECENTRE:
+              payment-provider: APS
+              client-secret: homecentresecrekey
