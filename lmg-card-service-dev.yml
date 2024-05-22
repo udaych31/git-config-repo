@@ -5,12 +5,15 @@ lmg:
         UAE:
           payment-provider: CKO
           client-secret: aaabbbcccddd
+          
           MAX:
             payment-provider: APS
             client-secret: dddddeeeeeffff
+            
           CENTREPOINT:
             payment-provider: CKO
             client-secret: dddddeeeeeffff
-          homecentre:
+            
+          HOMECENTRE:
             payment-provider: APS
             client-secret: dddddeeeeeffff
