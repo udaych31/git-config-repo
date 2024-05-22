@@ -5,7 +5,7 @@ lmg:
         uae:
           provider: CKO
           client-secret: aaabbbcccddd
-          
-          max:
-            provider: APS
-            client-secret: dddddeeeeeffff
+          conceptConfig:
+            max:
+              provider: APS
+              client-secret: dddddeeeeeffff
