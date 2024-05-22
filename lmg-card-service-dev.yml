@@ -2,7 +2,7 @@ lmg:
   card:
     payment:
       configs:
-        UAE:
+        uae:
           paymentProvider: CKO
           clientSecret: aaabbbcccddd
           max:
