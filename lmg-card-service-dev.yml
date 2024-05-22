@@ -1,67 +1,21 @@
 lmg:
   card:
     payment:
-      payment-provider: ## Concept wise payment provider, it will override contry specific/default payment provider
         UAE:
-          CENTREPOINT: CKO
-          HOMECENTRE: CKO
-          HOMEBOX: CKO
-          MAX: APS
-          LIFESTYLE: CKO
-          SHOEMART: APS
-          BABYSHOP: APS
-          SPLASH: APS
-          
-        KWT:
-          CENTREPOINT: CKO
-          HOMECENTRE: APS
-          HOMEBOX: CKO
-          MAX: APS
-          LIFESTYLE: CKO
-          SHOEMART: APS
-          BABYSHOP: APS
-          SPLASH: APS
-          
-        OMN:
-          CENTREPOINT: CKO
-          HOMECENTRE: APS
-          HOMEBOX: CKO
-          MAX: APS
-          LIFESTYLE: CKO
-          SHOEMART: APS
-          BABYSHOP: APS
-          SPLASH: APS
-
-        QAT:
-          CENTREPOINT: CKO
-          HOMECENTRE: APS
-          HOMEBOX: CKO
-          MAX: APS
-          LIFESTYLE: CKO
-          SHOEMART: APS
-          BABYSHOP: APS
-          SPLASH: APS
+          payment-provider: APS
+          client-secret: kkkllllmmmnnn
+            CENTREPOINT:
+              payment-provider: CKO
+              client-secret: pppqqqqrrrss
+            HOMECENTRE:
+              payment-provider: CKO
 
         KSA:
-          CENTREPOINT: CKO
-          HOMECENTRE: APS
-          HOMEBOX: CKO
-          MAX: APS
-          LIFESTYLE: CKO
-          SHOEMART: APS
-          BABYSHOP: APS
-          SPLASH: APS
-
-        EGY:
-          CENTREPOINT: CKO
-          HOMECENTRE: APS
-          HOMEBOX: CKO
-          MAX: APS
-          LIFESTYLE: CKO
-          SHOEMART: APS
-          BABYSHOP: APS
-          SPLASH: APS
-        
-        
-          
-        
+          payment-provider: CKO
+          client-secret: aaabbbcccddd
+            CENTREPOINT:
+              payment-provider: CKO
+              client-secret: eeefffggghhh
+            HOMECENTRE:
+              payment-provider: APS
+            
