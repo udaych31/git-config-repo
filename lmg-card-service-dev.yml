@@ -2,9 +2,15 @@ lmg:
   card:
     payment:
       configs:
-        uae:
+        UAE:
           paymentProvider: CKO
           clientSecret: aaabbbcccddd
-          max:
+          MAX:
+            paymentProvider: APS
+            clientSecret: dddddeeeeeffff
+          CENTREPOINT:
+            paymentProvider: CKO
+            clientSecret: dddddeeeeeffff
+          HOMECENTRE:
             paymentProvider: APS
             clientSecret: dddddeeeeeffff
