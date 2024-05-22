@@ -10,8 +10,7 @@ lmg:
             MAX:
               payment-provider: APS
               client-secret: maxsecretkey
-            CENTREPOINT:
-              payment-provider: 
+            CENTREPOINT: 
               client-secret: centrepointsecrekey
             HOMECENTRE:
               payment-provider: APS
